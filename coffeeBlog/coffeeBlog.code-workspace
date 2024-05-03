@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Personal Projects/Space Designs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coffeeBlog"
+	}
+}

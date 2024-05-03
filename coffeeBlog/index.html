@@ -7,40 +7,74 @@
     <link rel="stylesheet" href="stlyles.css">
 </head>
 <body>
-    <header>
-        <h1> Coffee Blog </h1> 
-        <p> Coffee Blog with tips and Courses <p>
+    <header class ="site-init">
+        <div class="bar"> 
+            <h1> Coffee Blog </h1> 
+            <nav class="menu">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <p class="hl-text"> Coffee Blog with tips and Courses <p>
         <p> Learn from the experts with the best recipes and tips.</p> 
-        <img src="https://www.istockphoto.com/es/foto/taza-de-caf%C3%A9-con-caf%C3%A9-con-forma-de-coraz%C3%B3n-y-granos-de-caf%C3%A9-sobre-fondo-de-madera-gm1472701007-502991095.jpg" alt="Coffee" />
-        
     </header>
-    
-    <main>
-        <h2> <em> Our Blog </em> </h2>
-        <div>
-            <h3> 3 Delicious Coffee Recipes  </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut non accusantium, placeat, magnam ab laboriosam neque animi sit excepturi quam delectus asperiores ex autem rem accusamus culpa, earum aspernatur.</p>
-        </div>
-
-        <div>  
-            <h3> 3 Delicious Coffee Recipes </h3>
-            <p>Lorem, ipsum dolor sit amet consectetur <strong> elit </strong>. Cum suscipit neque ea rerum, maiores fuga earum expedita provident atque eos quae voluptatum? Ipsam sed quos doloribus quis, odit eveniet perspiciatis.</p>
-        </div>
-           
-        <div>
-            <h3> Coffee Benefits </h3>
-                <p>Lorem ipsum dolor <em> sit amet</em> consectetur adipisicing elit. Minima error quae sed consequuntur. Ex minima nobis voluptates dicta? Dignissimos itaque autem quisquam vel possimus rerum quam voluptatem distinctio, recusandae laboriosam.
-                    <h4>Should I Use Milk? Click the <em><u>hyperlinks</u></em> below to see: </h4>
-                        <ul>
-                            <li><a href="https://www.eatingwell.com/almond-milk-health-benefits-8387408">Almond</a></li>
-                            <li><a href="https://www.webmd.com/diet/health-benefits-soy-milk">Soy</a></li>
-                            <li><a href="https://www.webmd.com/diet/what-to-know-about-skim-milk">Skim</a></li>
-                        </ul>
-                </p>
-        </div>
-
-        <h1> Our Blog </h1>
-
+    <main class="container">
+        <div class="main-flex-container">
+            <div>
+                <h2> <em> Our Blog </em> </h2>
+                <div class="blog-item">
+                    <img src="./img/blog3.jpg" alt="coffee element">
+                    <h3> Coffee Bean Type </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut non accusantium, placeat, magnam ab laboriosam neque animi sit excepturi quam delectus asperiores ex autem rem accusamus culpa, earum aspernatur.</p>
+                    <a href="#" class="btn-read-more">Read More</a>
+                </div>
+                <div class="blog-item">  
+                    <img src="./img/blog2.jpg" alt="coffee element">
+                    <h3> 3 Delicious Coffee Recipes </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur <strong> elit </strong>. Cum suscipit neque ea rerum, maiores fuga earum expedita provident atque eos quae voluptatum? Ipsam sed quos doloribus quis, odit eveniet perspiciatis.</p>
+                    <a href="#" class="btn-read-more">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <img src="./img/blog1.jpg" alt="coffee element">
+                    <h3> Coffee Benefits </h3>
+                        <p>Lorem ipsum dolor <em> sit amet</em> consectetur adipisicing elit. Minima error quae sed consequuntur. Ex minima nobis voluptates dicta? Dignissimos itaque autem quisquam vel possimus rerum quam voluptatem distinctio, recusandae laboriosam.
+                            <h4>Benefits of Milk in Cafe? Click the <em><u>hyperlinks</u></em> below to see: </h4>
+                                <ul>
+                                    <li><a href="https://www.eatingwell.com/almond-milk-health-benefits-8387408" class="almond"><em>Almond</em></a></li>
+                                    <li><a href="https://www.webmd.com/diet/health-benefits-soy-milk" class="soy"><em>Soy</em></a></li>
+                                    <li><a href="https://www.webmd.com/diet/what-to-know-about-skim-milk" class="skim"><em>Skim</em></a></li>
+                                </ul>
+                        </p>
+                        <a href="#" class="btn-read-more">Read More</a>
+                </div>
+            </div>
+                <section class="course-container">
+                    <h2>Our courses and workshops</h2>
+                    <div>
+                        <h3>Coffee extraction techniques</h3>
+                        <p>Price: Free</p>
+                        <p>Seat:20</p>
+                        <a href="#">More information</a>
+                    </div>
+                    <div>
+                        <h3>Coffee extraction techniques</h3>
+                        <p>Price: Free</p>
+                        <p>Seat:20</p>
+                        <a href="#">More information</a>
+                    </div>
+                </section>
+            </div>
+    <footer>
+        <div class="bar-footer"> 
+            <h1>Coffee Blog</h1> 
+            <nav class="menu">
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div> 
+    </footer>
     </main>
 </body>
 </html>
